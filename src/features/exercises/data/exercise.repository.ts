@@ -19,10 +19,9 @@ export interface ExerciseRepository {
 
   // Seeding (for initial data population)
   seedExercises(exercises: ExerciseDefinition[]): Promise<void>;
-  isSeeded(): Promise<boolean>;
 
   // Custom exercises (user-created)
   createCustomExercise(exercise: ExerciseDefinition): Promise<void>;
-  updateCustomExercise(exercise: ExerciseDefinition): Promise<void>;
-  deleteCustomExercise(id: string): Promise<void>;
+  updateExercise(exercise: ExerciseDefinition): Promise<void>;
+  deleteExercise(id: string): Promise<void>;
 }
