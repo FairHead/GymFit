@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+.expo/
+android/
+ios/
+
+# env files (keep templates)
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+
+# coverage
+coverage/

@@ -1,0 +1,5 @@
+/**
+ * App Navigation
+ * @see ARCHITECTURE.md for navigation structure
+ */
+export {};

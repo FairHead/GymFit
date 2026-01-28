@@ -1,0 +1,4 @@
+/**
+ * Infrastructure - Firebase (Auth + Firestore)
+ */
+export {};
