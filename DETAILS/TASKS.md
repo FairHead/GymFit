@@ -37,22 +37,22 @@
 
 ### 1.1 Domain-Types
 
-- [ ] `ExerciseType` definieren (`reps | time`)
-- [ ] `UnitType` definieren (`kg | bodyweight | bands`)
-- [ ] Modelle definieren:
-  - [ ] `ExerciseDefinition`
-  - [ ] `Routine`
-  - [ ] `RoutineExercise`
-  - [ ] `SetPlan`
-  - [ ] `WorkoutRun` (+ `RunExerciseProgress`)
+- [x] `ExerciseType` definieren (`reps | time`)
+- [x] `UnitType` definieren (`kg | bodyweight | bands`)
+- [x] Modelle definieren:
+  - [x] `ExerciseDefinition`
+  - [x] `Routine`
+  - [x] `RoutineExercise`
+  - [x] `SetPlan`
+  - [x] `WorkoutRun` (+ `RunExerciseProgress`)
 
-- [ ] Default-Konfigurationen als Helper (z. B. „neue Exercise“ → 3 Sets, Reps = 8)
+- [x] Default-Konfigurationen als Helper (z. B. „neue Exercise" → 3 Sets, Reps = 8)
 
 ### 1.2 Repository Interfaces (Data Layer)
 
-- [ ] `RoutineRepository` Interface (CRUD + reorder)
-- [ ] `ExerciseRepository` Interface (read-only + seed)
-- [ ] `SyncService` Interface (pull/push, lastSyncAt)
+- [x] `RoutineRepository` Interface (CRUD + reorder)
+- [x] `ExerciseRepository` Interface (read-only + seed)
+- [x] `SyncService` Interface (pull/push, lastSyncAt)
 
 ---
 
